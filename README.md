@@ -13,7 +13,7 @@ some other similar serial communications program.
 Here is an Altera "Minimum system board" that you can buy on EBay.  Search
 for "Altera Board".
 
-![EP2C5T144 Board](https://github.com/jhallen/joes-sandbox/tree/master/fpga/i2c_monitor/mp2c5board.jpg)
+![EP2C5T144 Board](mp2c5board.jpg)
 
 ## Pins
 
