@@ -1,19 +1,19 @@
 
 # I2C Bus / SMBUS Monitor
 
-This converts a cheap Cyclone-II EP2C5T144 "minimum system board" into a
-nice I2C bus monitor.  It converts I2C into a readable ASCII format and
-sends it over a 3.3V TTL-level RS-232 interface.  You can use a USB to
-TTL-level RS-232 cable to connect this to a PC.  You could perform long-term
-monitoring of an I2C bus by enabling logging in Minicom or some other
-similar serial communications program.
+This Verilog FPGA design turns a cheap Altera Cyclone-II EP2C5T144 "minimum
+system board" into a nice I2C bus monitor.  It converts I2C into a readable
+ASCII format and sends it over a 3.3V TTL-level RS-232 interface.  You can
+use a USB to TTL-level RS-232 cable to connect this to a PC.  You could
+perform long-term monitoring of an I2C bus by enabling logging in Minicom or
+some other similar serial communications program.
 
 ## Board
 
 Here is an Altera "Minimum system board" that you can buy on EBay.  Search
 for "Altera Board".
 
-[EP2C5T144 Board](https://github.com/jhallen/joes-sandbox/tree/master/fpga/i2c_monitor/mp2c5board.jpg)
+![EP2C5T144 Board](https://github.com/jhallen/joes-sandbox/tree/master/fpga/i2c_monitor/mp2c5board.jpg)
 
 ## Pins
 
